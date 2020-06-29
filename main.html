@@ -1,0 +1,143 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<!-- 
+
+Hello Camper!
+
+For now, the test suite only works in Chrome! Please read the README below in the JS Editor before beginning. Feel free to delete this message once you have read it. Good luck and Happy Coding! 
+
+- The freeCodeCamp Team 
+
+-->
+
+<!-- Form components:
+Name, email, favorite flavors (checkbox
+),how did you hear about us dropdown, Additional comments box (have text saying add ___flavor when form is not filled out), submit button, 
+Ideas: Background image (main): tea background (header, body): solid color, 
+Match color in header and submission, have slightly darker for background
+main 
+-->
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap" rel="stylesheet">
+ <main>
+   <header>
+     <h1 id="title"> Join Our <strong>TEA</strong>m! </h1> 
+     <p id="description"> A fanclub for all things tea. </p>
+     
+   </header> 
+   <body>
+   
+    <form id="survey-form">
+      
+       <label id="name-label" for="name">Name</label>
+      <input
+        type="text"
+        name="name"
+        id="name"
+        placeholder="Enter your name"
+        required
+      /><br>
+      
+      <label id="email-label" for="email">Email</label>
+      <input
+        type="email"
+        name="email"
+        id="email"
+        placeholder="Enter your Email"
+        required
+      />
+      <p> How did you hear about us? </p>
+      
+      <select id="dropdown" name="hear"  required>
+        <option disabled selected value>Select an option</option>
+        <option value="facebook">Facebook</option>
+        <option value="instagram">Instagram</option>
+        <option value="person">Friend/Family Member</option>
+        <option value="shop">Tea Shop</option>
+        <option value="other">Other</option>
+      </select>
+      
+      
+      <p> Do you like tea? </p>
+     <label for="yes">
+       <input 
+        id="yes"
+        type="radio" 
+        name="yes-yes"
+        value="yes" 
+        checked>
+       Yes</label>
+      
+      <label for="yes!">
+      <input id="yes!"
+      type="radio" 
+      name="yes-yes"
+      value="yes!"> 
+      Yes!</label> <br> <br>
+      
+      <label id="number-label" for="number"
+        >On a scale of 1 to 10, how much do you like tea?</label
+      >
+      <input
+        type="number"
+        name="scale"
+        id="number"
+        min="1"
+        max="10"
+        class="form-control"
+        placeholder="1-10"
+      />
+      
+      <br>
+      <p> What are your favorite flavors? (Check all that apply) </p>
+      <label for="house">
+      <input 
+      id="house"
+      type="checkbox" 
+      name="flavor"
+      value="house">
+      House Milk Tea</label><br>
+      
+     <label for="earl">
+     <input 
+     id="earl" 
+     type="checkbox"
+     name="flavor" 
+     value="earl">
+     Earl Grey</label> 
+      <br>
+      
+      <label for="thai">
+      <input 
+       id="thai" 
+       type="checkbox" 
+       name="flavor" 
+       value="thai">
+       Thai Tea</label><br>
+      
+      <label for="green">
+      <input
+       id="green" 
+       type="checkbox" 
+       name="flavor"
+       value="green">
+       Green Tea</label><br>
+      
+     <label for="chamomile">
+     <input 
+     id="chamomile" 
+     type="checkbox"
+     name="flavor" 
+     value="chamomile">
+     Chamomile</label><br>
+            
+      <p> Anything to tell us? </p>
+       <textarea
+        id="comments"
+        name="comment"
+        placeholder="Enter comments or concerns here. Ex. You should add [blank] to the favorite flavor list!"
+      ></textarea>
+      <button type="submit" id="submit" class="submit-button">
+        Submit
+   </form>
+   </body>
+</main>
