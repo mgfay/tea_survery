@@ -1,0 +1,79 @@
+html {
+  background: url("https://cdn.pixabay.com/photo/2017/07/19/15/59/tea-2519551_1280.jpg");
+  font-size: 18px;
+  font-family: 'Lato', sans-serif;
+  font-weight: bolder;
+}
+
+header {
+  line-height: 0.6;
+  padding: 10px;
+  background-color: rgba(255,255,255,0.9);
+  
+}
+#title {
+  text-align: center;
+  font-size: 36px;
+}
+strong {
+  color: #728f7c; 
+}
+#description {
+  text-align: center;
+  font-size: 16px;
+  opacity: 70%;
+}
+
+#survey-form {
+  background-color: rgba(255,255,255,0.8);
+  padding:20px;
+  width: 50%;
+  text-align: justify;
+  display: block;
+  margin: auto;
+  line-height: 1.5;
+
+}
+
+#name{
+  width: 50%;
+  height: 1.5em;
+  margin: 10px;
+}
+
+#email {
+  width: 50%;
+  height: 1.5em;
+  margin: 10px;
+}
+#dropdown{
+  width: 50%;
+}
+main {
+  display: block;
+  max-width: 100%;
+  
+}
+
+form p {
+  font-weight: bolder;
+}
+#comments{
+  width: 90%;
+  max-width: 100%;
+  padding: .5em 0px 4em 0px;
+}
+#submit {
+  background-color: #728f7c;
+  color: white;
+  width: 30%;
+  display: block;
+  margin: auto;
+  padding: .5em;
+}
+#submit:hover {
+  background-color: #995f7e;
+}
+input {
+  color: #995f7e;
+}
